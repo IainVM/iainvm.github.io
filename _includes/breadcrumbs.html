@@ -1,0 +1,22 @@
+
+{% assign path = page.url | remove: "/index.html"| remove: "/_posts" | replace: '/',' ' | split: ' ' %}
+
+{% assign url="/" %} 
+
+<ul class="breadcrumb">
+
+  <li><a href="{{url}}">Home</a> &nbsp; </li>
+
+  {% for name in path %}
+
+  	{% unless name contains 'html' %}
+
+  		{% assign url = url | append: name | append: '/' %} 
+
+	 	<li><a href="{{url | }}">{{name | capitalize}}</a></li>
+
+  	{% endunless %}
+
+  {% endfor %}
+
+</ul>
