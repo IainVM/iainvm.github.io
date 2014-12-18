@@ -1,0 +1,16 @@
+---
+layout: project-post
+title: Under Construction
+date: 2014-12-18 03:56:57
+---
+Well everything has to start somewhere, and this is the start for my 
+portfolio. I am currently hosting it on my 
+[Github](https://github.com/IainVM) this may stay as it is, or I might 
+move it to a personal server if I end up needing some extra usability I 
+can't get from Github.
+
+The Portfolio itself is hopefully going to be used to update anyone who 
+visits on any personal projects I undertake, describe the projects, show 
+the planning of them, and also explain how I tackled any problems I came 
+across. This will help anyone reading, and myself, if anyone happens to 
+be facing the same tasks I was. 

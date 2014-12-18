@@ -1,0 +1,8 @@
+---
+layout: project-post
+title: Description
+date: 2014-12-18 03:28:52
+---
+This Porfolio is designed to host my personal projects, the planning that went into them, and the problems I ran into during these projects. 
+
+The Portfolio uses [Jekyll](http://jekyllrb.com/), since it is focused around generating a simple infrastucture for blog centric websites. Meaning I can make make projects with separate blog updates on each. 
