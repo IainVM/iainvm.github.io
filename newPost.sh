@@ -1,5 +1,5 @@
 read -p "Project title to post in: " TITLE
-cd "_projects/$TITLE"
+cd "_projects/$TITLE/_posts"
 DATE=`date +%Y-%m-%d-%H:%M:%S`
 FILEN="$DATE.markdown"
 touch $FILEN
