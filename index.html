@@ -11,7 +11,7 @@ layout: default
 
       {% assign path = post.relative_path | remove: "/index.html"| replace: '/',' ' %}
 
-        {% unless path contains '_posts' or path contains '_about' or path contains '_docs' %}
+        {% unless path contains '_about' or path contains '_docs' or path contains 'index.md' %}
 
               <li>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -24,7 +24,4 @@ layout: default
 
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

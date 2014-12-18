@@ -1,6 +1,0 @@
----
-layout: project-post
-title:  "About Ar-Drone Project"
-date:   2014-11-22 20:49:27
----
-This will have a nice description about this Ar-Drone project
