@@ -4,23 +4,23 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Project posts</h1>
+  <h1 class="page-heading">All Updates</h1>
 
   <ul class="post-list">
     {% for post in site.projects %}
 
       {% assign path = post.relative_path | remove: "/index.html"| replace: '/',' ' %}
 
-        {% unless path contains '_about' or path contains '_docs' or path contains 'index.md' %}
+        {% if path contains '_posts' %}
 
               <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
+      		  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		</h2>
+		<p class="post-cont">{{ post.content }}</p>
               </li>
-        {% endunless %}
+        {% endif %}
 
     {% endfor %}
   </ul>
