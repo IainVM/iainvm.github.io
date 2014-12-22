@@ -1,0 +1,6 @@
+---
+layout: project-post
+title: Creating a Github Repo
+date: 2014-12-22 02:41:39
+---
+Started up a normal Java Project in Eclipse added the external jars for LWJGL, tested it with an example program, then pushed it to a new [Github Repository](https://github.com/IainVM/TilesetGameEngine).
