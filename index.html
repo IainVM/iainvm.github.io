@@ -1,31 +1,6 @@
----
-title: My amazing post
-redirect_to:
-  - http://www.github.com
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">All Updates</h1>
-
-  <ul class="post-list">
-  {% assign posts = site.projects | sorted:"date" %}
-    {% for post in posts reversed %}
-
-      {% assign path = post.relative_path | remove: "/index.html"| replace: '/',' ' %}
-
-        {% if path contains '_posts' %}
-
-              <li>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      		  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-		</h2>
-		<p class="post-cont">{{ post.content }}</p>
-              </li>
-        {% endif %}
-
-    {% endfor %}
-  </ul>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="0;url=iainvm.tech" />
+    </head>
+</html>

@@ -1,6 +1,0 @@
----
-layout: project-post
-title: Creating a Github Repo
-date: 2014-12-22 02:41:39
----
-Starting to make a Tileset Game Engine, made an empty Java Project with LWJGL in Eclipse and made an initial push to github. [Github Repository](https://github.com/IainVM/TilesetGameEngine).
