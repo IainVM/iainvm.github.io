@@ -1,16 +1,3 @@
-# Site settings
-title: Iain's Portfolio
-email: Iain.V.Majer@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Iain's Portfolio designed to host all plans, problems and projects devised by Iain.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://iainvm.github.io" # the base hostname & protocol for your site
-twitter_username: Iain_VM
-github_username:  IainVM
-permalink: /:categories
-collections:
-    projects:
-        output: true
-
-# Build settings
-markdown: kramdown
+title: My Old Portfolio
+redirect_to:
+  - http://www.iainvm.tech
